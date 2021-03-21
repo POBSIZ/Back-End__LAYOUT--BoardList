@@ -1,0 +1,120 @@
+*{
+    color: rgb(85, 85, 85);
+    outline: none;
+}
+
+
+body, ul, li, a, hr, input{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content__footer.divLine{
+    border: 0;
+    background-color: #03c75a;
+    height: 1px;
+}
+
+/* HEADER */
+.content > .content__header{
+    min-height: 100px;
+    border-bottom: 1px solid #03c75a;
+    padding: 10px 0px 20px 0px;
+}
+
+.content__header.info{
+    margin-left: 20px;
+}
+
+.content__header.info--title{
+    color: #03c75a;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.content__header.info__userInfo > div{
+    display: inline-block;
+}
+
+.content__header.info__userInfo--name{font-size: 20px; font-weight: bold; color: #03c75a;}
+.content__header.info__userInfo--cartegory{font-size: 15px;}
+.content__header.info__userInfo--time{font-size: 15px;}
+
+
+/* MAIN */
+.content__main{
+    height: 300px;
+    margin: 10px 20px;
+}
+
+
+/* FOOTER */
+.content > .content__footer{
+    min-height: 300px;
+    margin: 10px 20px;
+}
+
+.comment__list{
+    margin: 10px 0px 20px 20px;
+}
+
+.comment--title{
+    color: #03c75a;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.comment__userInfo > div{
+    display: inline-block;
+}
+
+.comment__userInfo--name{
+    color: #03c75a;
+    font-weight: bold;
+}
+
+.comment__subList{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+/* WRITE */
+.comment__write{
+    margin: 20px;
+}
+
+.comment__write--text{
+    display: block;
+    float: right;
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #03c75a;
+    padding: 5px;
+    margin-right: -5px;
+}
+
+.comment__write--send{
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: -5px;
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #03c75a;
+    color: #03c75a;
+    transition: .3s;
+}
+.comment__write--send:hover{
+    background-color: #03c75a;
+    color: #fff;
+    transition: .3s;
+}
